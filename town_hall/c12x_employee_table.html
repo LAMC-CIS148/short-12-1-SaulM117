@@ -38,10 +38,13 @@
         tbody tr:nth-child(even) td {
             background-color: yellow;
         }
-        /* Make only the department names bold */
+        /* Make only the department cells bold */
         tbody tr td:first-child {
             font-weight: bold;
             text-align: center;
+        }
+        tbody tr td:not(:first-child) {
+            font-weight: normal;
         }
         tfoot tr {
             background-color: yellow;
