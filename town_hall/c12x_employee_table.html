@@ -38,14 +38,14 @@
         tbody tr:nth-child(even) td {
             background-color: yellow;
         }
-        /* Bold only department cells */
+        /* Bold only the department cells */
         tbody tr td:first-child {
             font-weight: bold;
             text-align: center;
         }
-        /* Specifically unbold all other cells, especially employee names */
+        /* Ensure all other cells are normal weight */
         tbody tr td:not(:first-child) {
-            font-weight: normal !important;
+            font-weight: normal;
         }
         tfoot tr {
             background-color: yellow;
@@ -71,41 +71,41 @@
         <tbody>
             <tr>
                 <td rowspan="3">Editorial</td>
-                <td>Joel Murach</td>
-                <td>joelmurach@yahoo.com</td>
-                <td class="right">22</td>
+                <td style="font-weight: normal;">Joel Murach</td>
+                <td style="font-weight: normal;">joelmurach@yahoo.com</td>
+                <td class="right" style="font-weight: normal;">22</td>
             </tr>
             <tr>
-                <td>Anne Boehm</td>
-                <td>anne@murach.com</td>
-                <td class="right">34</td>
+                <td style="font-weight: normal;">Anne Boehm</td>
+                <td style="font-weight: normal;">anne@murach.com</td>
+                <td class="right" style="font-weight: normal;">34</td>
             </tr>
             <tr>
-                <td>Zak Ruvalcaba</td>
-                <td>zak@modulemedia.com</td>
-                <td class="right">4</td>
+                <td style="font-weight: normal;">Zak Ruvalcaba</td>
+                <td style="font-weight: normal;">zak@modulemedia.com</td>
+                <td class="right" style="font-weight: normal;">4</td>
             </tr>
             <tr>
                 <td rowspan="2">Marketing</td>
-                <td>Judy Taylor</td>
-                <td>judy@murach.com</td>
-                <td class="right">39</td>
+                <td style="font-weight: normal;">Judy Taylor</td>
+                <td style="font-weight: normal;">judy@murach.com</td>
+                <td class="right" style="font-weight: normal;">39</td>
             </tr>
             <tr>
-                <td>Bethany Lee</td>
-                <td>bethany@murach.com</td>
-                <td class="right">10</td>
+                <td style="font-weight: normal;">Bethany Lee</td>
+                <td style="font-weight: normal;">bethany@murach.com</td>
+                <td class="right" style="font-weight: normal;">10</td>
             </tr>
             <tr>
                 <td rowspan="2">Customer Service</td>
-                <td>Kelly Slivkoff</td>
-                <td>kelly@murach.com</td>
-                <td class="right">25</td>
+                <td style="font-weight: normal;">Kelly Slivkoff</td>
+                <td style="font-weight: normal;">kelly@murach.com</td>
+                <td class="right" style="font-weight: normal;">25</td>
             </tr>
             <tr>
-                <td>Juliette Baylon</td>
-                <td>juliette@murach.com</td>
-                <td class="right">1</td>
+                <td style="font-weight: normal;">Juliette Baylon</td>
+                <td style="font-weight: normal;">juliette@murach.com</td>
+                <td class="right" style="font-weight: normal;">1</td>
             </tr>
         </tbody>
         <tfoot>
